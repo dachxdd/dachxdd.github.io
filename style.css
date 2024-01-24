@@ -32,6 +32,8 @@ div.saffy{
 body{
     /* background-image: url("https://cdn.discordapp.com/banners/997698385450651751/68fa6c17ef5e0593f720f99485c56f16.png?size=1024"); */
     background-color:black;
+    
+
 }
 
 
@@ -62,18 +64,26 @@ proj boxes
 
 */
 
-.box {
+.box-container {
+    display: flex;
+    justify-content: center;
+  }
+.psub{
+    color:dimgray;
+    font-size:13px;
+    text-align:center;
+  }
+  .box {
     width: 150px;
     height: 100px;
-    background-color:#1f1f1f;
-    opacity:60%;
+    background-color: #1f1f1f;
     color: #fff;
     text-align: center;
-    line-height: 100px; 
-    margin-right: 20px; 
-    margin:auto;
+    margin-right: 20px; /* Adjust the margin between boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
 
 
 
